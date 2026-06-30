@@ -1,0 +1,66 @@
+:root {
+  --navy-900: #060e1f;
+  --navy-800: #0a1628;
+  --navy-700: #0d1e38;
+  --navy-600: #112448;
+  --navy-500: #1a3460;
+
+  --blue-500: #1565c0;
+  --blue-400: #1976d2;
+  --blue-300: #2196f3;
+  --blue-glow: #2196f380;
+
+  --steel-400: #78909c;
+  --steel-300: #90a4ae;
+  --steel-200: #b0bec5;
+
+  --white: #ffffff;
+  --white-80: rgba(255,255,255,0.80);
+  --white-50: rgba(255,255,255,0.50);
+  --white-15: rgba(255,255,255,0.08);
+
+  --font-display: 'Rajdhani', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  --transition: 0.25s ease;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--navy-800);
+  color: var(--white);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--font-body);
+  border: none;
+  background: none;
+}
